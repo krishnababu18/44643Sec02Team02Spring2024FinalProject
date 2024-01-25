@@ -13,5 +13,5 @@ University Event & Campus Weather App, Your one-stop destination for staying inf
 <h2>Roles and Responsibilities:</h2>
 Krishna Babu Gali IOS (developer): Responsible for developing and maintaining the Frontend and Backend.<br>
 Prem Rakesh Alasakani (Frontend): Responsible for maintaining the user interface (UI) and user experience (UX).<br>
-Gopichand Karanam (Backend): Responsible for working databases and API’s.
+Manideep Gattineni (Backend): Responsible for working databases and API’s.
 
