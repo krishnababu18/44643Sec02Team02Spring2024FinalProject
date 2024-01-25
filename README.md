@@ -8,7 +8,7 @@ University Event & Campus Weather App, Your one-stop destination for staying inf
 <h4>Music Events :</h4> Our app keeps you in the loop on all things musical. Discover upcoming events, plan your evenings, and share the experience with fellow music enthusiasts.
 <h4>Movie shows :</h4>  Find out about the latest movie showtimes, special screenings, and film festivals taking place at the university. Whether it's a classic film or a new release, our app ensures you're always aware of the cinematic delights on campus.
 <h4>Fest Extravaganza:</h4> Experience the vibrant energy of university fests and cultural events. Stay updated on festivities, performances, and celebrations that define the spirit of your campus. Be a part of the excitement and make lasting memories with friends.
-<h4>Real Time Weather Repots:</h4> Stay prepared for whatever the day brings with our integrated weather updates. Get current weather conditions, forecasts, and important alerts to plan your activities accordingly. Rain or shine, our app ensures you're ready for any weather.
+<h4>Real Time Weather Repots:</h4> Get current weather conditions, forecasts, and important alerts to plan your activities accordingly. Rain or shine, our app ensures you're ready for any weather.
 
 <h2>Roles and Responsibilities:</h2>
 Krishna Babu Gali IOS (developer): Responsible for developing and maintaining the Frontend and Backend.<br>
