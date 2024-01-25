@@ -1,6 +1,6 @@
 # 44643Sec02Team02Spring2024FinalProject
 
-CampusChronicle: Your Ultimate University Event & Weather Guide
+<h1>CampusChronicle: Your Ultimate University Event & Weather Guide</h1>
 
 University Event & Campus Weather App, Your one-stop destination for staying informed about the latest happenings on campus, from thrilling sports events and lively music performances to blockbuster movie shows, vibrant university fests, and even the current weather conditions. Students are the targeted users of this app.
 Key features are :
