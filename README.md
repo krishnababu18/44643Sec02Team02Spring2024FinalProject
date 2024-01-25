@@ -11,7 +11,7 @@ University Event & Campus Weather App, Your one-stop destination for staying inf
 <h4>Real Time Weather Repots:</h4> Stay prepared for whatever the day brings with our integrated weather updates. Get current weather conditions, forecasts, and important alerts to plan your activities accordingly. Rain or shine, our app ensures you're ready for any weather.
 
 <h2>Roles and Responsibilities:</h2>
-Krishna Babu Gali IOS (developer): Responsible for developing and maintaining the Frontend and Backend.
-Prem Rakesh Alasakani (Frontend): Responsible for maintaining the user interface (UI) and user experience (UX).
+Krishna Babu Gali IOS (developer): Responsible for developing and maintaining the Frontend and Backend.<br>
+Prem Rakesh Alasakani (Frontend): Responsible for maintaining the user interface (UI) and user experience (UX).<br>
 Gopichand Karanam (Backend): Responsible for working databases and API’s.
 
