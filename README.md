@@ -42,6 +42,29 @@ SPORTS: when user clicks on SPORTS, it goes to the SPORTS Page, where user can s
 Down of these buttons on the screen we can see the upcoming events, when the user clicks on event (1,2,3…) it goes to another page where user can see the event description, venue. down the screen There is an image about the concluded events and next down to the weather updates are posted here.<br>
 
 
+![screen-03](screen-3.jpeg)
+
+Top figure in the page show, Navigation: when user clicks on the event of upcoming events section it shows this page Where user can see information about event and venue. there is heart symbol at the side of each event, where user can select the event to be in favorite by ticking on that.<br>
+Down figure in the page shows the PROFILE, navigation: when user clicks on the PROFILE button. It shows the profile page.<br>
+
+
+![screen-04](screen-4.jpeg)
+
+Top figure in the page show CALENDER, Navigation: when user clicks on the CALENDER, it shows the calender page, where user can be able to see the events date wise.
+On the side of the CALENDER in the above image there a MyFAVORITE screen, when the user clicks on 
+MYFAVORITE, it shows all the events liked by the user.<br>
+Down figure in the page shows ACADEMIC sectioned events, Navigation: when the user clicks on the Academic button, it goes to the ACADEMIC page, where user can be able to see the events on academic’s (seminars, presentations, and student competitions)<br>
+Same as the ACADEMIC, when the user clicks on the other two of THEATERS and SPORTS, it goes to the 
+THEATERS and SPORTS pages where user can see the events related to that.<br>
+
+
+<h3>Final Workflow</h3>
+
+![screen-05](screen-5.jpeg)
+
+The above image is the final workflow of the project, Navigations: when the user enter her/his credentials and clicks on login and enters into the home page, in the home page there are many buttons,<br>
+ACADEMIC, THEATERS, SPORTS, HOME, MYFAVORITES, CALENDER ,PROFILE when the user clicks on the each button, user will be navigated to respective pages .<br>
+
 
 
 
