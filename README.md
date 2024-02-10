@@ -16,6 +16,13 @@ Prem Rakesh Alasakani (Frontend): Responsible for maintaining the user interface
 Manideep Gattineni (Backend): Responsible for working databases and API’s.
 
 <h3>List of Team members </h3>
-1.Krishna babu Gali 
-2. Prem, Alasakani
-3. Manideep, Gattineni
+1.Krishna babu Gali <br>
+2. Prem, Alasakani<br>
+3. Manideep, Gattineni<br>
+![image](https://github.com/krishnababu18/44643Sec02Team02Spring2024FinalProject/assets/79692517/3188845f-d4b0-4ea9-ba7d-c5b502626e40)
+This screen represents the login page , user has to enter his/her credentials.<br>
+Navigation : when user on click of login button ,user will  be navigated to home screen 
+
+
+
+
