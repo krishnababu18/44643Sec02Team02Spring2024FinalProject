@@ -23,7 +23,25 @@ Manideep Gattineni (Backend): Responsible for working databases and API’s.
 ![screen-01](screen-1.jpeg)
 
 This screen represents the login page , user has to enter his/her credentials.<br>
-Navigation : when user on click of login button ,user will  be navigated to home screen 
+Navigation : when user on click of login button ,user will  be navigated to home screen <br>
+
+
+![screen-02](screen-2.jpeg)
+
+
+This screen represents the home page , <br>
+Four buttons at bottom, namingly HOME, MYFAVOURITE, CALENDER, PROFILE <br>
+HOME: when user clicks on this it goes home page.<br>
+MYFAVORITE: when user clicks on the MYFAVORITE, it goes to MYFAVORITE page, where the user selected his favorite events.<br>
+CALENDER: when user clicks on CALENDER, it goes to CALENDER page, where the user can see the events by date.<br>
+PROFILE: when user clicks on PROFILE, it goes to the PROFILE page, where user can see his/her personal details and details about achievements, participated events and upcoming registered events.<br>
+Three buttons at the top, namingly ACADEMIC, THEATERS, SPORTS<br>
+ ACADEMIC: when user clicks on ACADEMIC, it goes to the ACADEMIC page where user can see events about ACADEMIC’s.<br>
+THEATERS: when user clicks on THEATERS, it goes to the THEATERS page, where user can see events about music and movies shows.<br>
+SPORTS: when user clicks on SPORTS, it goes to the SPORTS Page, where user can see events about SPORTS.<br>
+Down of these buttons on the screen we can see the upcoming events, when the user clicks on event (1,2,3…) it goes to another page where user can see the event description, venue. down the screen There is an image about the concluded events and next down to the weather updates are posted here.<br>
+
+
 
 
 
