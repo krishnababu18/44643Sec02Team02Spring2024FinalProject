@@ -15,3 +15,7 @@ Krishna Babu Gali IOS (developer): Responsible for developing and maintaining th
 Prem Rakesh Alasakani (Frontend): Responsible for maintaining the user interface (UI) and user experience (UX).<br>
 Manideep Gattineni (Backend): Responsible for working databases and API’s.
 
+<h3>List of Team members </h3>
+1.Krishna babu Gali 
+2. Prem, Alasakani
+3. Manideep, Gattineni
