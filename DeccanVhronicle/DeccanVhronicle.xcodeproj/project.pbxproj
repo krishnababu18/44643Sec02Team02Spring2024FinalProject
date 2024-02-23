@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCDAB0CD2B882AED00F2FDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0CC2B882AED00F2FDBB /* AppDelegate.swift */; };
+		FCDAB0CF2B882AED00F2FDBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0CE2B882AED00F2FDBB /* SceneDelegate.swift */; };
+		FCDAB0D12B882AED00F2FDBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0D02B882AED00F2FDBB /* ViewController.swift */; };
+		FCDAB0D42B882AED00F2FDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDAB0D22B882AED00F2FDBB /* Main.storyboard */; };
+		FCDAB0D62B882AF100F2FDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDAB0D52B882AF100F2FDBB /* Assets.xcassets */; };
+		FCDAB0D92B882AF100F2FDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDAB0D72B882AF100F2FDBB /* LaunchScreen.storyboard */; };
+		FCDAB0E42B882AF200F2FDBB /* DeccanVhronicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0E32B882AF200F2FDBB /* DeccanVhronicleTests.swift */; };
+		FCDAB0EE2B882AF200F2FDBB /* DeccanVhronicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0ED2B882AF200F2FDBB /* DeccanVhronicleUITests.swift */; };
+		FCDAB0F02B882AF200F2FDBB /* DeccanVhronicleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0EF2B882AF200F2FDBB /* DeccanVhronicleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCDAB0E02B882AF200F2FDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDAB0C12B882AED00F2FDBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDAB0C82B882AED00F2FDBB;
+			remoteInfo = DeccanVhronicle;
+		};
+		FCDAB0EA2B882AF200F2FDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDAB0C12B882AED00F2FDBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDAB0C82B882AED00F2FDBB;
+			remoteInfo = DeccanVhronicle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCDAB0C92B882AED00F2FDBB /* DeccanVhronicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeccanVhronicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDAB0CC2B882AED00F2FDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCDAB0CE2B882AED00F2FDBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCDAB0D02B882AED00F2FDBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCDAB0D32B882AED00F2FDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCDAB0D52B882AF100F2FDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCDAB0D82B882AF100F2FDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCDAB0DA2B882AF100F2FDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDAB0DF2B882AF200F2FDBB /* DeccanVhronicleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeccanVhronicleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDAB0E32B882AF200F2FDBB /* DeccanVhronicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeccanVhronicleTests.swift; sourceTree = "<group>"; };
+		FCDAB0E92B882AF200F2FDBB /* DeccanVhronicleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeccanVhronicleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDAB0ED2B882AF200F2FDBB /* DeccanVhronicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeccanVhronicleUITests.swift; sourceTree = "<group>"; };
+		FCDAB0EF2B882AF200F2FDBB /* DeccanVhronicleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeccanVhronicleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCDAB0C62B882AED00F2FDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAB0DC2B882AF200F2FDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAB0E62B882AF200F2FDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCDAB0C02B882AED00F2FDBB = {
+			isa = PBXGroup;
+			children = (
+				FCDAB0CB2B882AED00F2FDBB /* DeccanVhronicle */,
+				FCDAB0E22B882AF200F2FDBB /* DeccanVhronicleTests */,
+				FCDAB0EC2B882AF200F2FDBB /* DeccanVhronicleUITests */,
+				FCDAB0CA2B882AED00F2FDBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDAB0CA2B882AED00F2FDBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAB0C92B882AED00F2FDBB /* DeccanVhronicle.app */,
+				FCDAB0DF2B882AF200F2FDBB /* DeccanVhronicleTests.xctest */,
+				FCDAB0E92B882AF200F2FDBB /* DeccanVhronicleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDAB0CB2B882AED00F2FDBB /* DeccanVhronicle */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAB0CC2B882AED00F2FDBB /* AppDelegate.swift */,
+				FCDAB0CE2B882AED00F2FDBB /* SceneDelegate.swift */,
+				FCDAB0D02B882AED00F2FDBB /* ViewController.swift */,
+				FCDAB0D22B882AED00F2FDBB /* Main.storyboard */,
+				FCDAB0D52B882AF100F2FDBB /* Assets.xcassets */,
+				FCDAB0D72B882AF100F2FDBB /* LaunchScreen.storyboard */,
+				FCDAB0DA2B882AF100F2FDBB /* Info.plist */,
+			);
+			path = DeccanVhronicle;
+			sourceTree = "<group>";
+		};
+		FCDAB0E22B882AF200F2FDBB /* DeccanVhronicleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAB0E32B882AF200F2FDBB /* DeccanVhronicleTests.swift */,
+			);
+			path = DeccanVhronicleTests;
+			sourceTree = "<group>";
+		};
+		FCDAB0EC2B882AF200F2FDBB /* DeccanVhronicleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDAB0ED2B882AF200F2FDBB /* DeccanVhronicleUITests.swift */,
+				FCDAB0EF2B882AF200F2FDBB /* DeccanVhronicleUITestsLaunchTests.swift */,
+			);
+			path = DeccanVhronicleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCDAB0C82B882AED00F2FDBB /* DeccanVhronicle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDAB0F32B882AF200F2FDBB /* Build configuration list for PBXNativeTarget "DeccanVhronicle" */;
+			buildPhases = (
+				FCDAB0C52B882AED00F2FDBB /* Sources */,
+				FCDAB0C62B882AED00F2FDBB /* Frameworks */,
+				FCDAB0C72B882AED00F2FDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeccanVhronicle;
+			productName = DeccanVhronicle;
+			productReference = FCDAB0C92B882AED00F2FDBB /* DeccanVhronicle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCDAB0DE2B882AF200F2FDBB /* DeccanVhronicleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDAB0F62B882AF200F2FDBB /* Build configuration list for PBXNativeTarget "DeccanVhronicleTests" */;
+			buildPhases = (
+				FCDAB0DB2B882AF200F2FDBB /* Sources */,
+				FCDAB0DC2B882AF200F2FDBB /* Frameworks */,
+				FCDAB0DD2B882AF200F2FDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDAB0E12B882AF200F2FDBB /* PBXTargetDependency */,
+			);
+			name = DeccanVhronicleTests;
+			productName = DeccanVhronicleTests;
+			productReference = FCDAB0DF2B882AF200F2FDBB /* DeccanVhronicleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCDAB0E82B882AF200F2FDBB /* DeccanVhronicleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDAB0F92B882AF200F2FDBB /* Build configuration list for PBXNativeTarget "DeccanVhronicleUITests" */;
+			buildPhases = (
+				FCDAB0E52B882AF200F2FDBB /* Sources */,
+				FCDAB0E62B882AF200F2FDBB /* Frameworks */,
+				FCDAB0E72B882AF200F2FDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDAB0EB2B882AF200F2FDBB /* PBXTargetDependency */,
+			);
+			name = DeccanVhronicleUITests;
+			productName = DeccanVhronicleUITests;
+			productReference = FCDAB0E92B882AF200F2FDBB /* DeccanVhronicleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCDAB0C12B882AED00F2FDBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FCDAB0C82B882AED00F2FDBB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FCDAB0DE2B882AF200F2FDBB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FCDAB0C82B882AED00F2FDBB;
+					};
+					FCDAB0E82B882AF200F2FDBB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FCDAB0C82B882AED00F2FDBB;
+					};
+				};
+			};
+			buildConfigurationList = FCDAB0C42B882AED00F2FDBB /* Build configuration list for PBXProject "DeccanVhronicle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCDAB0C02B882AED00F2FDBB;
+			productRefGroup = FCDAB0CA2B882AED00F2FDBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDAB0C82B882AED00F2FDBB /* DeccanVhronicle */,
+				FCDAB0DE2B882AF200F2FDBB /* DeccanVhronicleTests */,
+				FCDAB0E82B882AF200F2FDBB /* DeccanVhronicleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCDAB0C72B882AED00F2FDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDAB0D92B882AF100F2FDBB /* LaunchScreen.storyboard in Resources */,
+				FCDAB0D62B882AF100F2FDBB /* Assets.xcassets in Resources */,
+				FCDAB0D42B882AED00F2FDBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAB0DD2B882AF200F2FDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAB0E72B882AF200F2FDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCDAB0C52B882AED00F2FDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDAB0D12B882AED00F2FDBB /* ViewController.swift in Sources */,
+				FCDAB0CD2B882AED00F2FDBB /* AppDelegate.swift in Sources */,
+				FCDAB0CF2B882AED00F2FDBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAB0DB2B882AF200F2FDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDAB0E42B882AF200F2FDBB /* DeccanVhronicleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDAB0E52B882AF200F2FDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDAB0EE2B882AF200F2FDBB /* DeccanVhronicleUITests.swift in Sources */,
+				FCDAB0F02B882AF200F2FDBB /* DeccanVhronicleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCDAB0E12B882AF200F2FDBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDAB0C82B882AED00F2FDBB /* DeccanVhronicle */;
+			targetProxy = FCDAB0E02B882AF200F2FDBB /* PBXContainerItemProxy */;
+		};
+		FCDAB0EB2B882AF200F2FDBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDAB0C82B882AED00F2FDBB /* DeccanVhronicle */;
+			targetProxy = FCDAB0EA2B882AF200F2FDBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCDAB0D22B882AED00F2FDBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDAB0D32B882AED00F2FDBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCDAB0D72B882AF100F2FDBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDAB0D82B882AF100F2FDBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCDAB0F12B882AF200F2FDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCDAB0F22B882AF200F2FDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCDAB0F42B882AF200F2FDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeccanVhronicle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOSProject.DeccanVhronicle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCDAB0F52B882AF200F2FDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeccanVhronicle/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOSProject.DeccanVhronicle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCDAB0F72B882AF200F2FDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOSProject.DeccanVhronicleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeccanVhronicle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeccanVhronicle";
+			};
+			name = Debug;
+		};
+		FCDAB0F82B882AF200F2FDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOSProject.DeccanVhronicleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeccanVhronicle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeccanVhronicle";
+			};
+			name = Release;
+		};
+		FCDAB0FA2B882AF200F2FDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOSProject.DeccanVhronicleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeccanVhronicle;
+			};
+			name = Debug;
+		};
+		FCDAB0FB2B882AF200F2FDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IOSProject.DeccanVhronicleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeccanVhronicle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCDAB0C42B882AED00F2FDBB /* Build configuration list for PBXProject "DeccanVhronicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDAB0F12B882AF200F2FDBB /* Debug */,
+				FCDAB0F22B882AF200F2FDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDAB0F32B882AF200F2FDBB /* Build configuration list for PBXNativeTarget "DeccanVhronicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDAB0F42B882AF200F2FDBB /* Debug */,
+				FCDAB0F52B882AF200F2FDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDAB0F62B882AF200F2FDBB /* Build configuration list for PBXNativeTarget "DeccanVhronicleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDAB0F72B882AF200F2FDBB /* Debug */,
+				FCDAB0F82B882AF200F2FDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDAB0F92B882AF200F2FDBB /* Build configuration list for PBXNativeTarget "DeccanVhronicleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDAB0FA2B882AF200F2FDBB /* Debug */,
+				FCDAB0FB2B882AF200F2FDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCDAB0C12B882AED00F2FDBB /* Project object */;
+}
