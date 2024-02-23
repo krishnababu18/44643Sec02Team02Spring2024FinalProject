@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -14,60 +14,63 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DeccanVhronicle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pkA-WM-xnI" userLabel="BigContainerSv">
-                                <rect key="frame" x="36" y="79" width="321" height="719"/>
+                                <rect key="frame" x="99" y="20" width="654" height="332"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fA5-am-qXG">
-                                        <rect key="frame" x="0.0" y="0.0" width="321" height="355.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="654" height="162"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deccan Chronicle" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ber-x6-aNx">
-                                                <rect key="frame" x="0.0" y="0.0" width="321" height="173.66666666666666"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="654" height="77"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="northwestmissouri" translatesAutoresizingMaskIntoConstraints="NO" id="N4x-dP-hnz">
-                                                <rect key="frame" x="0.0" y="181.66666666666669" width="321" height="174"/>
+                                                <rect key="frame" x="0.0" y="85" width="654" height="77"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="TXR-4x-Pso">
-                                        <rect key="frame" x="0.0" y="363.66666666666674" width="321" height="355.33333333333326"/>
+                                        <rect key="frame" x="0.0" y="170" width="654" height="162"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kgv-Nq-KD6">
-                                                <rect key="frame" x="0.0" y="0.0" width="321" height="173.66666666666666"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="654" height="77"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName/Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2uE-q1-xWg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="321" height="52.333333333333336"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="654" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zwF-aa-9kD">
-                                                        <rect key="frame" x="0.0" y="60.333333333333314" width="321" height="52.666666666666657"/>
+                                                        <rect key="frame" x="0.0" y="28.333333333333343" width="654" height="20.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htn-4l-nal">
-                                                        <rect key="frame" x="0.0" y="120.99999999999996" width="321" height="52.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="56.666666666666671" width="654" height="20.333333333333329"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                                                        <connections>
+                                                            <segue destination="52a-8f-rgb" kind="show" id="XsA-fw-26z"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hGG-h4-W5o">
-                                                <rect key="frame" x="0.0" y="181.66666666666669" width="321" height="173.66666666666669"/>
+                                                <rect key="frame" x="0.0" y="85" width="654" height="77"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Forgot your password?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PvV-Do-3MI">
-                                                        <rect key="frame" x="0.0" y="0.0" width="321" height="82.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="654" height="34.666666666666664"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcX-kT-QvT">
-                                                        <rect key="frame" x="0.0" y="90.666666666666629" width="321" height="83"/>
+                                                        <rect key="frame" x="0.0" y="42.666666666666686" width="654" height="34.333333333333343"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Don't  have an account? Sign Up"/>
                                                     </button>
@@ -93,11 +96,252 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48" y="-2"/>
+            <point key="canvasLocation" x="-1004" y="-680"/>
+        </scene>
+        <!--Home Page-->
+        <scene sceneID="tuI-0e-qRy">
+            <objects>
+                <viewController id="52a-8f-rgb" customClass="HomePage" customModule="DeccanVhronicle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VdR-g8-BSo">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vIn-dU-mtX" userLabel="bigContainerSV">
+                                <rect key="frame" x="40" y="20" width="792" height="353"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME PAGE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUf-Yg-1u3">
+                                        <rect key="frame" x="0.0" y="0.0" width="792" height="53"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="EQP-k2-giI">
+                                        <rect key="frame" x="0.0" y="61" width="792" height="35.333333333333343"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWO-57-cy8">
+                                                <rect key="frame" x="0.0" y="0.0" width="258.66666666666669" height="35.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Acadamic"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiq-ue-v9o">
+                                                <rect key="frame" x="266.66666666666663" y="0.0" width="258.66666666666663" height="35.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Theaters"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5W-bN-Gox">
+                                                <rect key="frame" x="533.33333333333337" y="0.0" width="258.66666666666663" height="35.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Sports"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xry-fQ-Atf">
+                                        <rect key="frame" x="0.0" y="104.33333333333333" width="792" height="248.66666666666669"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dNx-lk-o0K" userLabel="upcomingSV">
+                                                <rect key="frame" x="0.0" y="0.0" width="792" height="56"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UpComing Events" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TpW-u3-wSJ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="792" height="24"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VpG-0k-vmL">
+                                                        <rect key="frame" x="0.0" y="32.000000000000014" width="792" height="24"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <string key="text">"Thank you for checking in! At this time, there are no upcoming events scheduled. We'll be sure to keep you updated should any exciting opportunities arise in the future. In the meantime, feel free to explore our past events or stay tuned for any announcements. Your continued interest and support mean a lot to us!"</string>
+                                                        <color key="textColor" systemColor="labelColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="EJ1-i7-pkf" userLabel="concludedSV">
+                                                <rect key="frame" x="0.0" y="64.000000000000014" width="792" height="56.333333333333329"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Concluded Events" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNX-gp-icm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="792" height="24.333333333333332"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6bX-Bu-W7k" userLabel="DONE EVENTS">
+                                                        <rect key="frame" x="0.0" y="32.333333333333314" width="792" height="24"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Wc-BY-fDQ">
+                                                                <rect key="frame" x="0.0" y="0.0" width="258.66666666666669" height="24"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="&lt;">
+                                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rFZ-O4-M7y">
+                                                                <rect key="frame" x="266.66666666666663" y="0.0" width="258.66666666666663" height="24"/>
+                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                                <color key="textColor" systemColor="labelColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bF8-Qs-iLx">
+                                                                <rect key="frame" x="533.33333333333337" y="0.0" width="258.66666666666663" height="24"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="&gt;">
+                                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                                </buttonConfiguration>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather at Campus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rf-z2-eHg">
+                                                <rect key="frame" x="0.0" y="128.33333333333331" width="792" height="56"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" alignment="top" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7pN-JU-IWS" userLabel="MenuOptionsV">
+                                                <rect key="frame" x="0.0" y="192.33333333333337" width="792" height="56.333333333333343"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM4-w0-AjB" userLabel="Home">
+                                                        <rect key="frame" x="0.0" y="0.0" width="192" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Home"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r36-BI-vcJ">
+                                                        <rect key="frame" x="200" y="0.0" width="192" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Likes"/>
+                                                        <connections>
+                                                            <segue destination="PvX-uw-snR" kind="show" id="hDq-9o-bP6"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSV-u2-SJ9">
+                                                        <rect key="frame" x="400" y="0.0" width="192" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Dates"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozz-YT-Wen">
+                                                        <rect key="frame" x="600" y="0.0" width="192" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Profile"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="iUf-Yg-1u3" firstAttribute="height" secondItem="vIn-dU-mtX" secondAttribute="height" multiplier="0.15" id="NGI-nl-V1A"/>
+                                    <constraint firstItem="EQP-k2-giI" firstAttribute="height" secondItem="vIn-dU-mtX" secondAttribute="height" multiplier="0.1" id="Woc-aC-8QU"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0qH-rY-SJi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vIn-dU-mtX" firstAttribute="top" secondItem="VdR-g8-BSo" secondAttribute="top" constant="20" id="1g2-rp-Z4h"/>
+                            <constraint firstItem="0qH-rY-SJi" firstAttribute="bottom" secondItem="vIn-dU-mtX" secondAttribute="bottom" constant="20" id="6A6-sq-FoQ"/>
+                            <constraint firstAttribute="trailing" secondItem="vIn-dU-mtX" secondAttribute="trailing" constant="20" id="Pvo-kH-dgx"/>
+                            <constraint firstItem="vIn-dU-mtX" firstAttribute="leading" secondItem="VdR-g8-BSo" secondAttribute="leadingMargin" constant="20" id="T3J-lX-hLJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Yh-ee-o2y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ED-4y-XDP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89" y="-673"/>
+        </scene>
+        <!--Favourites-->
+        <scene sceneID="EuU-eS-vuE">
+            <objects>
+                <viewController id="PvX-uw-snR" customClass="Favourites" customModule="DeccanVhronicle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pkg-gh-GSB">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-UQ-4R5" userLabel="BigContainerSV">
+                                <rect key="frame" x="20" y="20" width="812" height="353"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favourites😍" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvE-aQ-4sx">
+                                        <rect key="frame" x="0.0" y="0.0" width="812" height="35.333333333333336"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ae2-oT-G6F" userLabel="EventImage&amp;NAMESV">
+                                        <rect key="frame" x="0.0" y="43.333333333333329" width="812" height="141.33333333333337"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rhythm Fusion Night" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qe-vx-RzP">
+                                                <rect key="frame" x="0.0" y="0.0" width="812" height="66.666666666666671"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NWMSU STUDENT UNION EVENTS" translatesAutoresizingMaskIntoConstraints="NO" id="3T7-7h-8nk">
+                                                <rect key="frame" x="0.0" y="74.666666666666657" width="812" height="66.666666666666657"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vWt-gP-uOE" userLabel="EventDetails">
+                                        <rect key="frame" x="0.0" y="192.66666666666663" width="812" height="160.33333333333337"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mfY-UE-Aoe" userLabel="Event Name">
+                                                <rect key="frame" x="0.0" y="0.0" width="812" height="76"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EventName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bv-Uv-Ijf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="402" height="76"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMU-zD-jls">
+                                                        <rect key="frame" x="410" y="0.0" width="402" height="76"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="❤️"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z7q-Yi-aDe">
+                                                <rect key="frame" x="0.0" y="84.000000000000028" width="812" height="76.333333333333343"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Get ready to dance the night away at our electrifying event, 'Rhythm Fusion Night'! Join us for an unforgettable evening filled with pulsating beats, infectious rhythms, and non-stop fun on the dance floor.</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="lvE-aQ-4sx" firstAttribute="height" secondItem="dgd-UQ-4R5" secondAttribute="height" multiplier="0.1" id="hEb-Xn-slF"/>
+                                    <constraint firstItem="ae2-oT-G6F" firstAttribute="height" secondItem="lvE-aQ-4sx" secondAttribute="height" multiplier="4" id="jmT-u9-hCd"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xAm-6Y-pPO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dgd-UQ-4R5" firstAttribute="top" secondItem="xAm-6Y-pPO" secondAttribute="top" constant="20" id="5hu-Cw-qf9"/>
+                            <constraint firstAttribute="trailing" secondItem="dgd-UQ-4R5" secondAttribute="trailing" constant="20" id="NzQ-b6-rx6"/>
+                            <constraint firstAttribute="bottom" secondItem="dgd-UQ-4R5" secondAttribute="bottom" constant="20" id="bdz-MN-u8b"/>
+                            <constraint firstItem="dgd-UQ-4R5" firstAttribute="leading" secondItem="xAm-6Y-pPO" secondAttribute="leading" constant="20" id="g2i-ss-mFt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SKq-Wd-PRV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Z1-to-j5p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1172" y="-673"/>
         </scene>
     </scenes>
     <resources>
+        <image name="NWMSU STUDENT UNION EVENTS" width="1200" height="630"/>
         <image name="northwestmissouri" width="1200" height="680"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

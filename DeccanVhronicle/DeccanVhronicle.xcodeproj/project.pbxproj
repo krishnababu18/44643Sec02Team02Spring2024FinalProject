@@ -16,6 +16,8 @@
 		FCDAB0E42B882AF200F2FDBB /* DeccanVhronicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0E32B882AF200F2FDBB /* DeccanVhronicleTests.swift */; };
 		FCDAB0EE2B882AF200F2FDBB /* DeccanVhronicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0ED2B882AF200F2FDBB /* DeccanVhronicleUITests.swift */; };
 		FCDAB0F02B882AF200F2FDBB /* DeccanVhronicleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0EF2B882AF200F2FDBB /* DeccanVhronicleUITestsLaunchTests.swift */; };
+		FCDAB0FD2B8899F400F2FDBB /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0FC2B8899F400F2FDBB /* HomePage.swift */; };
+		FCDAB0FF2B890DB200F2FDBB /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0FE2B890DB200F2FDBB /* Favourites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FCDAB0E92B882AF200F2FDBB /* DeccanVhronicleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeccanVhronicleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDAB0ED2B882AF200F2FDBB /* DeccanVhronicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeccanVhronicleUITests.swift; sourceTree = "<group>"; };
 		FCDAB0EF2B882AF200F2FDBB /* DeccanVhronicleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeccanVhronicleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCDAB0FC2B8899F400F2FDBB /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		FCDAB0FE2B890DB200F2FDBB /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FCDAB0CE2B882AED00F2FDBB /* SceneDelegate.swift */,
 				FCDAB0D02B882AED00F2FDBB /* ViewController.swift */,
 				FCDAB0D22B882AED00F2FDBB /* Main.storyboard */,
+				FCDAB0FE2B890DB200F2FDBB /* Favourites.swift */,
+				FCDAB0FC2B8899F400F2FDBB /* HomePage.swift */,
 				FCDAB0D52B882AF100F2FDBB /* Assets.xcassets */,
 				FCDAB0D72B882AF100F2FDBB /* LaunchScreen.storyboard */,
 				FCDAB0DA2B882AF100F2FDBB /* Info.plist */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDAB0FF2B890DB200F2FDBB /* Favourites.swift in Sources */,
 				FCDAB0D12B882AED00F2FDBB /* ViewController.swift in Sources */,
 				FCDAB0CD2B882AED00F2FDBB /* AppDelegate.swift in Sources */,
 				FCDAB0CF2B882AED00F2FDBB /* SceneDelegate.swift in Sources */,
+				FCDAB0FD2B8899F400F2FDBB /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
