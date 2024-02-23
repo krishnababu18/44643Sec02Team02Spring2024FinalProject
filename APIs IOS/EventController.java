@@ -11,15 +11,24 @@ import java.util.List;
 public class EventController {
 
     private final List<Event> events = new ArrayList<>();
+    private final NotificationService notificationService;
+
+    public EventController(EventService eventService, NotificationService          notificationService) {
+        this.eventService = eventService;
+        this.notificationService = notificationService;
+    }
 
     @PostMapping("/add")
     public ResponseEntity<String> addEvent(@RequestBody Event event) {
         events.add(event);
         return ResponseEntity.status(HttpStatus.CREATED).body("Event added successfully");
-    }
 
-    @GetMapping("/all")
-    public ResponseEntity<List<Event>> getAllEvents() {
-        return ResponseEntity.ok(events);
+    try {
+                notificationService.sendNotificationToUsers(event);
+            } catch (FirebaseMessagingException e) {
+                e.printStackTrace();
+                return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Failed to send notifications");
+        }
     }
 }
+
