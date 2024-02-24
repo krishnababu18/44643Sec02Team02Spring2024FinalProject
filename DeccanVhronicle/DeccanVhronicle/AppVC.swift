@@ -8,6 +8,43 @@
 import UIKit
 import AnimatedGradientView
 
+class AnimatedGradientView: UIView {
+    
+    var gradientLayer = CAGradientLayer()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupGradient()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setupGradient()
+    }
+    
+    private func setupGradient() {
+        gradientLayer.frame = bounds
+        gradientLayer.colors = [UIColor.red.cgColor, UIColor.blue.cgColor]
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
+        layer.addSublayer(gradientLayer)
+        
+        // Animation
+        let animation = CABasicAnimation(keyPath: "locations")
+        animation.fromValue = [0.0, 0.1]
+        animation.toValue = [0.9, 1.0]
+        animation.duration = 2.0
+        animation.autoreverses = true
+        animation.repeatCount = Float.infinity
+        gradientLayer.add(animation, forKey: nil)
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        gradientLayer.frame = bounds
+    }
+}
 
 class AppVC: UIViewController {
 
@@ -15,15 +52,8 @@ class AppVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
         let gradientView = AnimatedGradientView(frame: view.bounds)
-        gradientView.direction = .up
-        gradientView.animationValues = [
-            (colors: ["#FFF000"], .up, .axial),
-            (colors: ["#808080"], .down, .axial)
-        ]
-        view.addSubview(gradientView)
-        view.sendSubviewToBack(gradientView)
+                view.addSubview(gradientView)
     }
     
 
