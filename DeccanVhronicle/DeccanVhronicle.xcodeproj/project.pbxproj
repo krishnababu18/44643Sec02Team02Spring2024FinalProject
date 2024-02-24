@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53BCD3D72B8986C2001B4FF8 /* AppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BCD3D62B8986C2001B4FF8 /* AppVC.swift */; };
+		53BCD3DA2B898767001B4FF8 /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = 53BCD3D92B898767001B4FF8 /* AnimatedGradientView */; };
 		FCDAB0CD2B882AED00F2FDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0CC2B882AED00F2FDBB /* AppDelegate.swift */; };
 		FCDAB0CF2B882AED00F2FDBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0CE2B882AED00F2FDBB /* SceneDelegate.swift */; };
 		FCDAB0D12B882AED00F2FDBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0D02B882AED00F2FDBB /* ViewController.swift */; };
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53BCD3D62B8986C2001B4FF8 /* AppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVC.swift; sourceTree = "<group>"; };
 		FCDAB0C92B882AED00F2FDBB /* DeccanVhronicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeccanVhronicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDAB0CC2B882AED00F2FDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCDAB0CE2B882AED00F2FDBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53BCD3DA2B898767001B4FF8 /* AnimatedGradientView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +111,7 @@
 				FCDAB0CE2B882AED00F2FDBB /* SceneDelegate.swift */,
 				FCDAB0D02B882AED00F2FDBB /* ViewController.swift */,
 				FCDAB0D22B882AED00F2FDBB /* Main.storyboard */,
+				53BCD3D62B8986C2001B4FF8 /* AppVC.swift */,
 				FCDAB0FE2B890DB200F2FDBB /* Favourites.swift */,
 				FCDAB0FC2B8899F400F2FDBB /* HomePage.swift */,
 				FCDAB0D52B882AF100F2FDBB /* Assets.xcassets */,
@@ -149,6 +154,9 @@
 			dependencies = (
 			);
 			name = DeccanVhronicle;
+			packageProductDependencies = (
+				53BCD3D92B898767001B4FF8 /* AnimatedGradientView */,
+			);
 			productName = DeccanVhronicle;
 			productReference = FCDAB0C92B882AED00F2FDBB /* DeccanVhronicle.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +229,9 @@
 				Base,
 			);
 			mainGroup = FCDAB0C02B882AED00F2FDBB;
+			packageReferences = (
+				53BCD3D82B898767001B4FF8 /* XCRemoteSwiftPackageReference "AnimatedGradientView" */,
+			);
 			productRefGroup = FCDAB0CA2B882AED00F2FDBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,6 +279,7 @@
 				FCDAB0D12B882AED00F2FDBB /* ViewController.swift in Sources */,
 				FCDAB0CD2B882AED00F2FDBB /* AppDelegate.swift in Sources */,
 				FCDAB0CF2B882AED00F2FDBB /* SceneDelegate.swift in Sources */,
+				53BCD3D72B8986C2001B4FF8 /* AppVC.swift in Sources */,
 				FCDAB0FD2B8899F400F2FDBB /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,6 +621,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53BCD3D82B898767001B4FF8 /* XCRemoteSwiftPackageReference "AnimatedGradientView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rwbutler/AnimatedGradientView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53BCD3D92B898767001B4FF8 /* AnimatedGradientView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53BCD3D82B898767001B4FF8 /* XCRemoteSwiftPackageReference "AnimatedGradientView" */;
+			productName = AnimatedGradientView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FCDAB0C12B882AED00F2FDBB /* Project object */;
 }
