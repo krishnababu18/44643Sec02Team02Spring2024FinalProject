@@ -17,6 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eK8-Le-D6N" userLabel="AnimGradView" customClass="AnimatedGradientView" customModule="AnimatedGradientView">
+                                <rect key="frame" x="0.0" y="46" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pkA-WM-xnI" userLabel="BigContainerSv">
                                 <rect key="frame" x="36" y="79" width="321" height="719"/>
                                 <subviews>
@@ -51,7 +56,7 @@
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htn-4l-nal">
-                                                        <rect key="frame" x="0.0" y="120.99999999999994" width="321" height="52.666666666666686"/>
+                                                        <rect key="frame" x="0.0" y="120.99999999999996" width="321" height="52.666666666666671"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Login"/>
                                                         <connections>
@@ -106,6 +111,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KdW-To-Kd6" userLabel="AnimGradView" customClass="AnimatedGradientView" customModule="AnimatedGradientView">
+                                <rect key="frame" x="0.0" y="46" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vIn-dU-mtX" userLabel="bigContainerSV">
                                 <rect key="frame" x="36" y="20" width="337" height="802"/>
                                 <subviews>
@@ -261,6 +271,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-dH-erZ" userLabel="AnimGradView" customClass="AnimatedGradientView" customModule="AnimatedGradientView">
+                                <rect key="frame" x="0.0" y="41" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-UQ-4R5" userLabel="BigContainerSV">
                                 <rect key="frame" x="20" y="20" width="353" height="802"/>
                                 <subviews>
@@ -350,6 +365,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="hDq-9o-bP6"/>
         <segue reference="1U8-Vx-X0U"/>
     </inferredMetricsTieBreakers>
     <resources>
