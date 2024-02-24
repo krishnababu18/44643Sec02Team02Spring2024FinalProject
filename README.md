@@ -65,7 +65,8 @@ THEATERS and SPORTS pages where user can see the events related to that.<br>
 The above image is the final workflow of the project, Navigations: when the user enter her/his credentials and clicks on login and enters into the home page, in the home page there are many buttons,<br>
 ACADEMIC, THEATERS, SPORTS, HOME, MYFAVORITES, CALENDER ,PROFILE when the user clicks on the each button, user will be navigated to respective pages .<br>
 
-
+We have worked on designing the UI and got to make some pages on and added some animations to it. We have also worked on writing some APIs in java using springboot it deals with adding the events to the application making some changes to the already existing events delete an event and also send the users a notification when a new event is added.
+The UI designed has a login page, a home page and the favourites page which interact with themselves.
 
 
 
