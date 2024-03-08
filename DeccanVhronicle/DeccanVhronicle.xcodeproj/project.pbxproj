@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		53BCD3D72B8986C2001B4FF8 /* AppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BCD3D62B8986C2001B4FF8 /* AppVC.swift */; };
 		53BCD3DA2B898767001B4FF8 /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = 53BCD3D92B898767001B4FF8 /* AnimatedGradientView */; };
+		FC3284F32B9BADE3001CD835 /* SignUpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3284F22B9BADE3001CD835 /* SignUpPageViewController.swift */; };
 		FCDAB0CD2B882AED00F2FDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0CC2B882AED00F2FDBB /* AppDelegate.swift */; };
 		FCDAB0CF2B882AED00F2FDBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0CE2B882AED00F2FDBB /* SceneDelegate.swift */; };
 		FCDAB0D12B882AED00F2FDBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDAB0D02B882AED00F2FDBB /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		53BCD3D62B8986C2001B4FF8 /* AppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVC.swift; sourceTree = "<group>"; };
+		FC3284F22B9BADE3001CD835 /* SignUpPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageViewController.swift; sourceTree = "<group>"; };
 		FCDAB0C92B882AED00F2FDBB /* DeccanVhronicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeccanVhronicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDAB0CC2B882AED00F2FDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCDAB0CE2B882AED00F2FDBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				53BCD3D62B8986C2001B4FF8 /* AppVC.swift */,
 				FCDAB0FE2B890DB200F2FDBB /* Favourites.swift */,
 				FCDAB0FC2B8899F400F2FDBB /* HomePage.swift */,
+				FC3284F22B9BADE3001CD835 /* SignUpPageViewController.swift */,
 				FCDAB0D52B882AF100F2FDBB /* Assets.xcassets */,
 				FCDAB0D72B882AF100F2FDBB /* LaunchScreen.storyboard */,
 				FCDAB0DA2B882AF100F2FDBB /* Info.plist */,
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCDAB0FF2B890DB200F2FDBB /* Favourites.swift in Sources */,
+				FC3284F32B9BADE3001CD835 /* SignUpPageViewController.swift in Sources */,
 				FCDAB0D12B882AED00F2FDBB /* ViewController.swift in Sources */,
 				FCDAB0CD2B882AED00F2FDBB /* AppDelegate.swift in Sources */,
 				FCDAB0CF2B882AED00F2FDBB /* SceneDelegate.swift in Sources */,
