@@ -69,6 +69,9 @@ We have worked on designing the UI and got to make some pages on and added some 
 The UI designed has a login page, a home page and the favourites page which interact with themselves.
 
 
+In sprint 04 we have added the signup page and added some functionality for login buttons when no details are entered and written code for signup page which will be useful when one will be registering .
+
+
 
 
 
