@@ -565,7 +565,10 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtp-pc-hun" userLabel="signup">
                                         <rect key="frame" x="0.0" y="468.66666666666669" width="353" height="34.333333333333314"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="SignUP"/>
+                                        <connections>
+                                            <action selector="signUPact:" destination="RhV-3C-y6c" eventType="touchUpInside" id="dsF-tl-CgL"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -586,6 +589,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Oix-eD-VDy"/>
+                    <connections>
+                        <outlet property="EmailTF" destination="beU-PM-hLG" id="xxs-H5-zNQ"/>
+                        <outlet property="confirmTF" destination="cI6-Jf-63M" id="V4q-5g-Oeg"/>
+                        <outlet property="nameTF" destination="3jY-su-q9X" id="gCo-N6-UG6"/>
+                        <outlet property="passwordTF" destination="p5A-qk-QDg" id="Vqx-li-MlD"/>
+                        <outlet property="signUPBtn" destination="dtp-pc-hun" id="sbf-xg-CtN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1EW-UD-5BT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
