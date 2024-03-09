@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F3771D2B9C24F100A0093D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3771C2B9C24F100A0093D /* LoginViewController.swift */; };
 		53BCD3D72B8986C2001B4FF8 /* AppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BCD3D62B8986C2001B4FF8 /* AppVC.swift */; };
 		53BCD3DA2B898767001B4FF8 /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = 53BCD3D92B898767001B4FF8 /* AnimatedGradientView */; };
 		FC3284F32B9BADE3001CD835 /* SignUpPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3284F22B9BADE3001CD835 /* SignUpPageViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F3771C2B9C24F100A0093D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		53BCD3D62B8986C2001B4FF8 /* AppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVC.swift; sourceTree = "<group>"; };
 		FC3284F22B9BADE3001CD835 /* SignUpPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageViewController.swift; sourceTree = "<group>"; };
 		FCDAB0C92B882AED00F2FDBB /* DeccanVhronicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeccanVhronicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 				FCDAB0D22B882AED00F2FDBB /* Main.storyboard */,
 				53BCD3D62B8986C2001B4FF8 /* AppVC.swift */,
 				FCDAB0FE2B890DB200F2FDBB /* Favourites.swift */,
+				04F3771C2B9C24F100A0093D /* LoginViewController.swift */,
 				FCDAB0FC2B8899F400F2FDBB /* HomePage.swift */,
 				FC3284F22B9BADE3001CD835 /* SignUpPageViewController.swift */,
 				FCDAB0D52B882AF100F2FDBB /* Assets.xcassets */,
@@ -282,6 +285,7 @@
 				FC3284F32B9BADE3001CD835 /* SignUpPageViewController.swift in Sources */,
 				FCDAB0D12B882AED00F2FDBB /* ViewController.swift in Sources */,
 				FCDAB0CD2B882AED00F2FDBB /* AppDelegate.swift in Sources */,
+				04F3771D2B9C24F100A0093D /* LoginViewController.swift in Sources */,
 				FCDAB0CF2B882AED00F2FDBB /* SceneDelegate.swift in Sources */,
 				53BCD3D72B8986C2001B4FF8 /* AppVC.swift in Sources */,
 				FCDAB0FD2B8899F400F2FDBB /* HomePage.swift in Sources */,
