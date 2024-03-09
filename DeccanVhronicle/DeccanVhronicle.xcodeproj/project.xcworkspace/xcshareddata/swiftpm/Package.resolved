@@ -1,4 +1,5 @@
 {
+  "originHash" : "b827738889962f26f11536a4e1cd7d45284c2a9905f3cd74334885427dbd11fa",
   "pins" : [
     {
       "identity" : "animatedgradientview",
@@ -10,5 +11,5 @@
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
