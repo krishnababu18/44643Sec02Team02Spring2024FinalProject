@@ -70,7 +70,17 @@ The UI designed has a login page, a home page and the favourites page which inte
 
 
 In sprint 04 we have added the signup page and added some functionality for login buttons when no details are entered and written code for signup page which will be useful when one will be registering .
+We've recently introduced a comprehensive page dedicated to showcasing all the exciting events happening within our university community. This dynamic platform offers users a convenient overview of the diverse range of events taking place during specific timeframes.
 
+Upon accessing the page, users are greeted with a visually appealing interface, featuring a scrollable list that elegantly presents each event vertically. This intuitive design ensures seamless navigation, allowing users to effortlessly explore the various events on offer.
+
+Each event listing provides a succinct summary, offering users a glimpse into the theme, date, and location. This quick overview serves as a handy reference for users to gauge their interest and availability.
+
+However, we understand that some events may pique a user's particular interest. To cater to this, we've integrated a personalized feature that allows users to add events to their favorites section. This section serves as a curated collection, where users can delve deeper into their selected events.
+
+Within the favorites section, users can access detailed descriptions of each event, along with vital information such as participation details and eligibility criteria. This comprehensive approach ensures that users have all the necessary information at their fingertips, empowering them to make informed decisions about their participation.
+
+In essence, our events page not only provides a convenient overview of university happenings but also offers a personalized experience, tailored to each user's interests and preferences. With its user-friendly interface and extensive features, it serves as a hub of excitement and engagement within our vibrant university community. 
 
 
 
