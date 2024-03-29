@@ -550,6 +550,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KeA-dV-BmW"/>
+                    <connections>
+                        <outlet property="emailTF" destination="suX-Qs-HC7" id="kG1-8L-Mg9"/>
+                        <outlet property="sendLinkButton" destination="Pp2-Te-1Jh" id="MId-S6-XCq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORs-Zj-TbY" sceneMemberID="firstResponder"/>
             </objects>
