@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3cE-sh-ENv">
-                                <rect key="frame" x="20" y="20" width="353" height="526.33333333333337"/>
+                                <rect key="frame" x="20" y="20" width="353" height="518.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3H-bF-p6v">
                                         <rect key="frame" x="151.66666666666666" y="0.0" width="50" height="100"/>
@@ -71,7 +71,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwH-rY-obN">
-                                        <rect key="frame" x="138.66666666666666" y="484" width="75.666666666666657" height="42.333333333333371"/>
+                                        <rect key="frame" x="138.66666666666666" y="484" width="75.666666666666657" height="34.333333333333371"/>
                                         <inset key="contentEdgeInsets" minX="12" minY="0.0" maxX="12" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Sign In" cornerStyle="capsule">
@@ -89,7 +89,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rER-PP-nZj">
-                                <rect key="frame" x="87.666666666666686" y="570.33333333333337" width="218" height="30"/>
+                                <rect key="frame" x="87.666666666666686" y="562.33333333333337" width="218" height="30"/>
                                 <color key="tintColor" name="AccentColor"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Don't have an Accoun? Register"/>
@@ -110,6 +110,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="aPD-gF-r6Z"/>
                     <connections>
+                        <outlet property="emailTextField" destination="zxq-zd-D29" id="mQQ-IB-d8f"/>
+                        <outlet property="passwordTextField" destination="yfd-py-HDR" id="Hfe-Af-FVV"/>
+                        <outlet property="signInButton" destination="BwH-rY-obN" id="1NK-Is-E9J"/>
                         <segue destination="jTV-7B-ccg" kind="show" identifier="loginToTabbar" id="9Y1-iY-Yn5"/>
                     </connections>
                 </viewController>
@@ -286,7 +289,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6Od-j1-gmd">
-                                <rect key="frame" x="16" y="126" width="361" height="32"/>
+                                <rect key="frame" x="16" y="124" width="361" height="32"/>
                                 <segments>
                                     <segment title="Academic"/>
                                     <segment title="Theators"/>
@@ -294,7 +297,7 @@
                                 </segments>
                             </segmentedControl>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1N-db-pWC">
-                                <rect key="frame" x="0.0" y="165" width="393" height="638"/>
+                                <rect key="frame" x="0.0" y="163" width="393" height="640"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="YNr-OR-gar">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="453"/>
@@ -561,14 +564,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8pP-x3-LAL">
-                                <rect key="frame" x="146.66666666666666" y="147" width="100" height="98.666666666666686"/>
+                                <rect key="frame" x="146.66666666666666" y="145" width="100" height="98.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="rSD-rb-yPP"/>
                                     <constraint firstAttribute="height" constant="100" id="tth-Ww-Jq1"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Bam-Ew-tf5">
-                                <rect key="frame" x="16" y="278" width="361" height="358"/>
+                                <rect key="frame" x="16" y="276" width="361" height="358"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N3b-97-sgn">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="70"/>
@@ -798,7 +801,7 @@
                     <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="seh-RR-b2l"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="eDK-qX-hsB">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="110"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -817,7 +820,7 @@
                     <tabBarItem key="tabBarItem" title="Favourites" image="heart" catalog="system" id="ovR-c8-DNT"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="VNg-10-jyt">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="110"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -836,7 +839,7 @@
                     <tabBarItem key="tabBarItem" title="Calendar" image="calendar" catalog="system" id="5xy-WD-rii"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="PBD-Iq-S3r">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="110"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -855,7 +858,7 @@
                     <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="xtc-Tr-UdW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="96n-q8-TSW">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="110"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -879,16 +882,16 @@
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
