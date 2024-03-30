@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040079B12BB7B016005FD17E /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040079B02BB7B016005FD17E /* EventTableViewCell.swift */; };
 		04FECEAB2BB79D1A00E17B1A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FECEAA2BB79D1A00E17B1A /* HomeViewController.swift */; };
 		742999FE2B860F3300C22B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742999FD2B860F3300C22B9C /* AppDelegate.swift */; };
 		74299A002B860F3300C22B9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742999FF2B860F3300C22B9C /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040079B02BB7B016005FD17E /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		04FECEAA2BB79D1A00E17B1A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		742999FA2B860F3300C22B9C /* EventsAndWeatherGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsAndWeatherGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		742999FD2B860F3300C22B9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				74CD52552BB5521A001DD70B /* ForgotPasswordViewController.swift */,
 				FCF1845A2BB7AE1A0077B76F /* RegisterViewController.swift */,
 				04FECEAA2BB79D1A00E17B1A /* HomeViewController.swift */,
+				040079B02BB7B016005FD17E /* EventTableViewCell.swift */,
 				74299A032B860F3300C22B9C /* Main.storyboard */,
 				74299A062B860F3400C22B9C /* Assets.xcassets */,
 				74299A082B860F3400C22B9C /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040079B12BB7B016005FD17E /* EventTableViewCell.swift in Sources */,
 				74CD52562BB5521A001DD70B /* ForgotPasswordViewController.swift in Sources */,
 				74299A122B86119800C22B9C /* LoginViewController.swift in Sources */,
 				74299A022B860F3300C22B9C /* ViewController.swift in Sources */,
