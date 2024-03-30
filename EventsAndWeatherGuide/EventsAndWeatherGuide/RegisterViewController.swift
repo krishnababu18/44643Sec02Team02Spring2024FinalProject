@@ -23,13 +23,6 @@ class RegisterViewController: UIViewController {
             setupUI()
         }
         
-        func setupUI() {
-            registerBtn.isEnabled = false // Initially disable the register button
-            // Add targets to text fields for text change events
-            emailTF.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
-            passwordTF.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
-            ConfirmpassTF.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
-        }
         
         @objc func textFieldDidChange() {
             // Check if email is valid
@@ -41,6 +34,14 @@ class RegisterViewController: UIViewController {
             // Enable register button only if email is valid and passwords match
             registerBtn.isEnabled = isEmailValid && doPasswordsMatch
         }
+    
+    func setupUI() {
+        registerBtn.isEnabled = false // Initially disable the register button
+        // Add targets to text fields for text change events
+        emailTF.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
+        passwordTF.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
+        ConfirmpassTF.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
+    }
         
         func isValidEmail(_ email: String) -> Bool {
             // Simple email validation using regular expression

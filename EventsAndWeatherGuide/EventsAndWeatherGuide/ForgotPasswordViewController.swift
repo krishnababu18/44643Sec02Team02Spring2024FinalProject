@@ -15,6 +15,14 @@ class ForgotPasswordViewController: UIViewController {
         emailTF.addTarget(self, action: #selector(emailTextFieldDidChange(_:)), for: .editingChanged)
     }
     
+    
+    // Function to validate email address format
+    func isValidEmail(_ email: String) -> Bool {
+        let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+        let emailPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
+        return emailPredicate.evaluate(with: email)
+    }
+    
     // Function to validate email address format and enable/disable the button accordingly
     @objc func emailTextFieldDidChange(_ textField: UITextField) {
         if let email = textField.text {
@@ -23,13 +31,6 @@ class ForgotPasswordViewController: UIViewController {
         }
     }
     
-    // Function to validate email address format
-    func isValidEmail(_ email: String) -> Bool {
-        let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
-        let emailPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
-        return emailPredicate.evaluate(with: email)
-    }
-
     @IBAction func cancel(_ sender: Any) {
         self.dismiss(animated: true)
     }
