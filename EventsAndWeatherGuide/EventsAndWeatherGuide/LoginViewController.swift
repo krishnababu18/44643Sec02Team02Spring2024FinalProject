@@ -29,7 +29,11 @@ class LoginViewController: UIViewController {
         guard let email = emailTextField.text, let password = passwordTextField.text else {
             return
         }
+        
+        
         signInButton.isEnabled = isValidEmail(email) && !password.isEmpty
+        
+        
     }
 
         @IBAction func login(_ sender: Any) {
