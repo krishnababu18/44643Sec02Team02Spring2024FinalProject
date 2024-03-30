@@ -20,19 +20,17 @@ class LoginViewController: UIViewController {
             emailTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
             passwordTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         }
-
-        @objc func textFieldDidChange(_ textField: UITextField) {
-            guard let email = emailTextField.text, let password = passwordTextField.text else {
-                return
-            }
-            signInButton.isEnabled = isValidEmail(email) && !password.isEmpty
-        }
-
         func isValidEmail(_ email: String) -> Bool {
             let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
             let emailPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
             return emailPredicate.evaluate(with: email)
         }
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        guard let email = emailTextField.text, let password = passwordTextField.text else {
+            return
+        }
+        signInButton.isEnabled = isValidEmail(email) && !password.isEmpty
+    }
 
         @IBAction func login(_ sender: Any) {
             guard let email = emailTextField.text, let password = passwordTextField.text else {
