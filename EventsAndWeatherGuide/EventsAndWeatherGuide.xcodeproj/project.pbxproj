@@ -18,6 +18,7 @@
 		74299A122B86119800C22B9C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74299A112B86119800C22B9C /* LoginViewController.swift */; };
 		7455D6172B875215008560A9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7455D6162B875215008560A9 /* SplashViewController.swift */; };
 		74CD52562BB5521A001DD70B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CD52552BB5521A001DD70B /* ForgotPasswordViewController.swift */; };
+		8A26EBA52BC9365E003EF117 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26EBA42BC9365E003EF117 /* EventDetailsViewController.swift */; };
 		FCF1845B2BB7AE1A0077B76F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF1845A2BB7AE1A0077B76F /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		74299A112B86119800C22B9C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7455D6162B875215008560A9 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		74CD52552BB5521A001DD70B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		8A26EBA42BC9365E003EF117 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
 		FCF1845A2BB7AE1A0077B76F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 				FCF1845A2BB7AE1A0077B76F /* RegisterViewController.swift */,
 				04FECEAA2BB79D1A00E17B1A /* HomeViewController.swift */,
 				040079B02BB7B016005FD17E /* EventTableViewCell.swift */,
+				8A26EBA42BC9365E003EF117 /* EventDetailsViewController.swift */,
 				74299A032B860F3300C22B9C /* Main.storyboard */,
 				74299A062B860F3400C22B9C /* Assets.xcassets */,
 				74299A082B860F3400C22B9C /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 				74299A022B860F3300C22B9C /* ViewController.swift in Sources */,
 				FCF1845B2BB7AE1A0077B76F /* RegisterViewController.swift in Sources */,
 				742999FE2B860F3300C22B9C /* AppDelegate.swift in Sources */,
+				8A26EBA52BC9365E003EF117 /* EventDetailsViewController.swift in Sources */,
 				7455D6172B875215008560A9 /* SplashViewController.swift in Sources */,
 				04FECEAB2BB79D1A00E17B1A /* HomeViewController.swift in Sources */,
 				74299A002B860F3300C22B9C /* SceneDelegate.swift in Sources */,
