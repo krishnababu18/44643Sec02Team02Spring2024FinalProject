@@ -80,7 +80,9 @@ However, we understand that some events may pique a user's particular interest. 
 
 Within the favorites section, users can access detailed descriptions of each event, along with vital information such as participation details and eligibility criteria. This comprehensive approach ensures that users have all the necessary information at their fingertips, empowering them to make informed decisions about their participation.
 
-In essence, our events page not only provides a convenient overview of university happenings but also offers a personalized experience, tailored to each user's interests and preferences. With its user-friendly interface and extensive features, it serves as a hub of excitement and engagement within our vibrant university community. 
+In essence, our events page not only provides a convenient overview of university happenings but also offers a personalized experience, tailored to each user's interests and preferences. With its user-friendly interface and extensive features, it serves as a hub of excitement and engagement within our vibrant university community.
+
+
 
 
 
