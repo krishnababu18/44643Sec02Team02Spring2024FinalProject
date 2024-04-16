@@ -539,11 +539,11 @@
             <objects>
                 <viewController modalPresentationStyle="overFullScreen" id="dhI-KI-gOM" customClass="AddOrUpdateEventViewController" customModule="EventsAndWeatherGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fkS-r5-hNh">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bcg-NG-Ohc">
-                                <rect key="frame" x="0.0" y="108" width="393" height="734"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UNC-ID-LOV">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="692.66666666666663"/>
@@ -652,7 +652,7 @@
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yjt-pJ-PiF">
-                                                <rect key="frame" x="16" y="430.33333333333337" width="361" height="44"/>
+                                                <rect key="frame" x="16" y="430.33333333333331" width="361" height="44"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="mKO-oy-qGj"/>
                                                 </constraints>
@@ -671,7 +671,7 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tVW-nA-bEa">
-                                                <rect key="frame" x="16" y="490.33333333333337" width="361" height="120"/>
+                                                <rect key="frame" x="16" y="490.33333333333326" width="361" height="120"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter description" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I3i-w1-VVD">
                                                         <rect key="frame" x="4" y="4" width="353" height="112"/>
@@ -734,7 +734,7 @@
                                 </constraints>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4w-J7-ltc">
-                                <rect key="frame" x="0.0" y="592" width="393" height="250"/>
+                                <rect key="frame" x="0.0" y="602" width="393" height="250"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="h9s-rC-bWc">
                                         <rect key="frame" x="280" y="8" width="101" height="44"/>
@@ -1426,7 +1426,7 @@
         <segue reference="gn6-Sx-hwD"/>
         <segue reference="tfn-d4-2xM"/>
         <segue reference="UCC-dW-DSd"/>
-        <segue reference="toB-HR-WWq"/>
+        <segue reference="7ju-vi-DlB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Logo" width="215" height="235"/>
