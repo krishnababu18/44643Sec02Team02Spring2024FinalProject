@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048024C12BCE3EE600D5CA75 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048024C02BCE3EE600D5CA75 /* ForgotPasswordViewController.swift */; };
+		048024C32BCE489900D5CA75 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048024C22BCE489900D5CA75 /* EventTableViewCell.swift */; };
+		048024C52BCE48A400D5CA75 /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048024C42BCE48A400D5CA75 /* CustomTableView.swift */; };
 		5366D9172BCE3CE70057D5D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5366D9162BCE3CE70057D5D6 /* LoginViewController.swift */; };
 		5366D9192BCE3D6B0057D5D6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5366D9182BCE3D6B0057D5D6 /* RegisterViewController.swift */; };
 		740146722BBBCA8700B8229E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740146712BBBCA8700B8229E /* GoogleService-Info.plist */; };
@@ -32,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048024C02BCE3EE600D5CA75 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		048024C22BCE489900D5CA75 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		048024C42BCE48A400D5CA75 /* CustomTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
 		5366D9162BCE3CE70057D5D6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5366D9182BCE3D6B0057D5D6 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		740146712BBBCA8700B8229E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 				5366D9162BCE3CE70057D5D6 /* LoginViewController.swift */,
 				5366D9182BCE3D6B0057D5D6 /* RegisterViewController.swift */,
 				7455D6162B875215008560A9 /* SplashViewController.swift */,
+				048024C02BCE3EE600D5CA75 /* ForgotPasswordViewController.swift */,
+				048024C22BCE489900D5CA75 /* EventTableViewCell.swift */,
+				048024C42BCE48A400D5CA75 /* CustomTableView.swift */,
 				74299A032B860F3300C22B9C /* Main.storyboard */,
 				7490F5862BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld */,
 				74299A062B860F3400C22B9C /* Assets.xcassets */,
@@ -215,10 +224,13 @@
 				5366D9192BCE3D6B0057D5D6 /* RegisterViewController.swift in Sources */,
 				7408CF142BBA9103004624AD /* AdminEventTableViewCell.swift in Sources */,
 				7490F5882BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld in Sources */,
+				048024C52BCE48A400D5CA75 /* CustomTableView.swift in Sources */,
+				048024C32BCE489900D5CA75 /* EventTableViewCell.swift in Sources */,
 				747598DE2BBA80BF00DA4A06 /* AddOrUpdateEventViewController.swift in Sources */,
 				74299A022B860F3300C22B9C /* ViewController.swift in Sources */,
 				742999FE2B860F3300C22B9C /* AppDelegate.swift in Sources */,
 				7455D6172B875215008560A9 /* SplashViewController.swift in Sources */,
+				048024C12BCE3EE600D5CA75 /* ForgotPasswordViewController.swift in Sources */,
 				747598E32BBA86F100DA4A06 /* EventModel.swift in Sources */,
 				5366D9172BCE3CE70057D5D6 /* LoginViewController.swift in Sources */,
 				74299A002B860F3300C22B9C /* SceneDelegate.swift in Sources */,
