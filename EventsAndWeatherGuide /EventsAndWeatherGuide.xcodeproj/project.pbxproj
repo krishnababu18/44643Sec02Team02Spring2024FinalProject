@@ -32,6 +32,9 @@
 		747598DE2BBA80BF00DA4A06 /* AddOrUpdateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747598DD2BBA80BF00DA4A06 /* AddOrUpdateEventViewController.swift */; };
 		747598E32BBA86F100DA4A06 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747598E22BBA86F100DA4A06 /* EventModel.swift */; };
 		7490F5882BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7490F5862BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld */; };
+		8A2FCFC32BCE4E1D000434F9 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCFC22BCE4E1D000434F9 /* FavouritesViewController.swift */; };
+		8A2FCFC52BCE4E2C000434F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCFC42BCE4E2C000434F9 /* HomeViewController.swift */; };
+		8A2FCFC72BCE4E40000434F9 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCFC62BCE4E40000434F9 /* EventDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		747598DD2BBA80BF00DA4A06 /* AddOrUpdateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrUpdateEventViewController.swift; sourceTree = "<group>"; };
 		747598E22BBA86F100DA4A06 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		7490F5872BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsAndWeatherGuide.xcdatamodel; sourceTree = "<group>"; };
+		8A2FCFC22BCE4E1D000434F9 /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		8A2FCFC42BCE4E2C000434F9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8A2FCFC62BCE4E40000434F9 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				048024C02BCE3EE600D5CA75 /* ForgotPasswordViewController.swift */,
 				048024C22BCE489900D5CA75 /* EventTableViewCell.swift */,
 				048024C42BCE48A400D5CA75 /* CustomTableView.swift */,
+				8A2FCFC62BCE4E40000434F9 /* EventDetailsViewController.swift */,
+				8A2FCFC42BCE4E2C000434F9 /* HomeViewController.swift */,
+				8A2FCFC22BCE4E1D000434F9 /* FavouritesViewController.swift */,
 				74299A032B860F3300C22B9C /* Main.storyboard */,
 				7490F5862BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld */,
 				74299A062B860F3400C22B9C /* Assets.xcassets */,
@@ -223,6 +232,7 @@
 				747598DC2BBA80B600DA4A06 /* AllEventsViewController.swift in Sources */,
 				5366D9192BCE3D6B0057D5D6 /* RegisterViewController.swift in Sources */,
 				7408CF142BBA9103004624AD /* AdminEventTableViewCell.swift in Sources */,
+				8A2FCFC32BCE4E1D000434F9 /* FavouritesViewController.swift in Sources */,
 				7490F5882BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld in Sources */,
 				048024C52BCE48A400D5CA75 /* CustomTableView.swift in Sources */,
 				048024C32BCE489900D5CA75 /* EventTableViewCell.swift in Sources */,
@@ -230,10 +240,12 @@
 				74299A022B860F3300C22B9C /* ViewController.swift in Sources */,
 				742999FE2B860F3300C22B9C /* AppDelegate.swift in Sources */,
 				7455D6172B875215008560A9 /* SplashViewController.swift in Sources */,
+				8A2FCFC52BCE4E2C000434F9 /* HomeViewController.swift in Sources */,
 				048024C12BCE3EE600D5CA75 /* ForgotPasswordViewController.swift in Sources */,
 				747598E32BBA86F100DA4A06 /* EventModel.swift in Sources */,
 				5366D9172BCE3CE70057D5D6 /* LoginViewController.swift in Sources */,
 				74299A002B860F3300C22B9C /* SceneDelegate.swift in Sources */,
+				8A2FCFC72BCE4E40000434F9 /* EventDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
