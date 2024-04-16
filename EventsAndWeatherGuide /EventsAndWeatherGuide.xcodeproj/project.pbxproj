@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5366D9172BCE3CE70057D5D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5366D9162BCE3CE70057D5D6 /* LoginViewController.swift */; };
+		5366D9192BCE3D6B0057D5D6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5366D9182BCE3D6B0057D5D6 /* RegisterViewController.swift */; };
 		740146722BBBCA8700B8229E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740146712BBBCA8700B8229E /* GoogleService-Info.plist */; };
 		740146812BBC0D2E00B8229E /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 740146802BBC0D2E00B8229E /* SwiftSoup */; };
 		7408CF0B2BBA8C9D004624AD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7408CF0A2BBA8C9D004624AD /* FirebaseAuth */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5366D9162BCE3CE70057D5D6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5366D9182BCE3D6B0057D5D6 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		740146712BBBCA8700B8229E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7408CF132BBA9103004624AD /* AdminEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminEventTableViewCell.swift; sourceTree = "<group>"; };
 		742999FA2B860F3300C22B9C /* EventsAndWeatherGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsAndWeatherGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +93,8 @@
 				742999FD2B860F3300C22B9C /* AppDelegate.swift */,
 				742999FF2B860F3300C22B9C /* SceneDelegate.swift */,
 				74299A012B860F3300C22B9C /* ViewController.swift */,
+				5366D9162BCE3CE70057D5D6 /* LoginViewController.swift */,
+				5366D9182BCE3D6B0057D5D6 /* RegisterViewController.swift */,
 				7455D6162B875215008560A9 /* SplashViewController.swift */,
 				74299A032B860F3300C22B9C /* Main.storyboard */,
 				7490F5862BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld */,
@@ -206,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				747598DC2BBA80B600DA4A06 /* AllEventsViewController.swift in Sources */,
+				5366D9192BCE3D6B0057D5D6 /* RegisterViewController.swift in Sources */,
 				7408CF142BBA9103004624AD /* AdminEventTableViewCell.swift in Sources */,
 				7490F5882BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld in Sources */,
 				747598DE2BBA80BF00DA4A06 /* AddOrUpdateEventViewController.swift in Sources */,
@@ -213,6 +220,7 @@
 				742999FE2B860F3300C22B9C /* AppDelegate.swift in Sources */,
 				7455D6172B875215008560A9 /* SplashViewController.swift in Sources */,
 				747598E32BBA86F100DA4A06 /* EventModel.swift in Sources */,
+				5366D9172BCE3CE70057D5D6 /* LoginViewController.swift in Sources */,
 				74299A002B860F3300C22B9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
