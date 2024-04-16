@@ -2,7 +2,7 @@
 //  SplashViewController.swift
 //  EventsAndWeatherGuide
 //
-//  Created by Gattineni manideep on 24/02/2024.
+//  Created by Prem Rakesh on 24/02/2024.
 //
 
 import UIKit
