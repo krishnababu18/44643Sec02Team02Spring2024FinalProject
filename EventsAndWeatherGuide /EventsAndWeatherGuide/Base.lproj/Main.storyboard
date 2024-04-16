@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ykw-SN-KSp">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="FDM-5y-IbH">
+            <objects>
+                <viewController id="ykw-SN-KSp" customClass="SplashViewController" customModule="EventsAndWeatherGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G5s-O4-XSH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="THw-3P-XFL">
+                                <rect key="frame" x="65.333333333333343" y="311.66666666666669" width="262.33333333333326" height="228.66666666666669"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="R2w-Ei-2Y3">
+                                        <rect key="frame" x="0.0" y="0.0" width="262.33333333333331" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="3D2-0I-o7P"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Events &amp; Weather Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGd-CW-lCk">
+                                        <rect key="frame" x="0.0" y="200" width="262.33333333333331" height="28.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="u4x-uW-Nmn"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="THw-3P-XFL" firstAttribute="centerY" secondItem="G5s-O4-XSH" secondAttribute="centerY" id="6BG-xE-C5W"/>
+                            <constraint firstItem="THw-3P-XFL" firstAttribute="centerX" secondItem="G5s-O4-XSH" secondAttribute="centerX" id="zCk-jX-B6S"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iXn-wq-rrC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jde-6Y-TLh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1150" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="215" height="235"/>
+    </resources>
+</document>
