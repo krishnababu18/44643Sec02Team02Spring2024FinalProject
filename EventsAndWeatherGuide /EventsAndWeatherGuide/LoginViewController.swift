@@ -8,7 +8,8 @@
 import UIKit
 import FirebaseAuth
 import MBProgressHUD
-
+import AVFoundation
+import AudioToolbox
 
 class LoginViewController: UIViewController {
 
@@ -40,7 +41,6 @@ class LoginViewController: UIViewController {
     */
 
     @IBAction func login(_ sender: Any) {
-        
         if emailTF.text == "" {
             
             self.showAlert(str: "Please enter email")
@@ -57,25 +57,27 @@ class LoginViewController: UIViewController {
                 print(strongSelf)
               
                 if strongSelf.emailTF.text == "admin@admin.com" {
-                    
                     UserDefaults.standard.setValue("admin", forKey: "type")
                     UserDefaults.standard.synchronize()
                     strongSelf.performSegue(withIdentifier: "loginToAdmin", sender: strongSelf)
+                    AudioServicesPlaySystemSound(1001)
                 }else {
                     
                     UserDefaults.standard.setValue("user", forKey: "type")
                     UserDefaults.standard.synchronize()
                     strongSelf.performSegue(withIdentifier: "loginToTabbar", sender: strongSelf)
+                    AudioServicesPlaySystemSound(1001)
                 }
             }
         }
     }
     
     func showAlert(str: String) -> Void {
-        
+        //AudioServicesPlaySystemSound(1322)
         let alert = UIAlertController(title: "Error", message: str, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
+        AudioServicesPlaySystemSound(1151)
     }
     
 }

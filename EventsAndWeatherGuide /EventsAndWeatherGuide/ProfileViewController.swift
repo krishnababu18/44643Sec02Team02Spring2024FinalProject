@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import AVFoundation
 
 class ProfileViewController: UIViewController {
 
@@ -37,6 +38,15 @@ class ProfileViewController: UIViewController {
         
         
         self.performSegue(withIdentifier: "profileToLogin", sender: self)
+        
+        AudioServicesPlaySystemSound(1053)
+        
+        
+        
+        
+        
+        
+        
     }
     /*
     // MARK: - Navigation

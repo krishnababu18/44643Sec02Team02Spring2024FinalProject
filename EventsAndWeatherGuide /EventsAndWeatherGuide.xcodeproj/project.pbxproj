@@ -15,7 +15,6 @@
 		5366D91B2BCE55310057D5D6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5366D91A2BCE55310057D5D6 /* ProfileViewController.swift */; };
 		5366D91D2BCE55410057D5D6 /* FavouriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5366D91C2BCE55410057D5D6 /* FavouriteTableViewCell.swift */; };
 		740146722BBBCA8700B8229E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740146712BBBCA8700B8229E /* GoogleService-Info.plist */; };
-		740146812BBC0D2E00B8229E /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 740146802BBC0D2E00B8229E /* SwiftSoup */; };
 		7408CF0B2BBA8C9D004624AD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7408CF0A2BBA8C9D004624AD /* FirebaseAuth */; };
 		7408CF0D2BBA8C9D004624AD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7408CF0C2BBA8C9D004624AD /* FirebaseFirestore */; };
 		7408CF0F2BBA8C9D004624AD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7408CF0E2BBA8C9D004624AD /* FirebaseStorage */; };
@@ -33,10 +32,11 @@
 		747598DC2BBA80B600DA4A06 /* AllEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747598DB2BBA80B600DA4A06 /* AllEventsViewController.swift */; };
 		747598DE2BBA80BF00DA4A06 /* AddOrUpdateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747598DD2BBA80BF00DA4A06 /* AddOrUpdateEventViewController.swift */; };
 		747598E32BBA86F100DA4A06 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747598E22BBA86F100DA4A06 /* EventModel.swift */; };
-		7490F5882BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7490F5862BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld */; };
+		8A0C09082BD2BB0100DF6B24 /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = 8A0C09072BD2BB0100DF6B24 /* Eureka */; };
 		8A2FCFC32BCE4E1D000434F9 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCFC22BCE4E1D000434F9 /* FavouritesViewController.swift */; };
 		8A2FCFC52BCE4E2C000434F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCFC42BCE4E2C000434F9 /* HomeViewController.swift */; };
 		8A2FCFC72BCE4E40000434F9 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FCFC62BCE4E40000434F9 /* EventDetailsViewController.swift */; };
+		8AA5D5362BCE6CE800002E32 /* EventsAndWeatherGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AA5D5342BCE6CE800002E32 /* EventsAndWeatherGuide.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,10 +61,10 @@
 		747598DB2BBA80B600DA4A06 /* AllEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllEventsViewController.swift; sourceTree = "<group>"; };
 		747598DD2BBA80BF00DA4A06 /* AddOrUpdateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrUpdateEventViewController.swift; sourceTree = "<group>"; };
 		747598E22BBA86F100DA4A06 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
-		7490F5872BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsAndWeatherGuide.xcdatamodel; sourceTree = "<group>"; };
 		8A2FCFC22BCE4E1D000434F9 /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 		8A2FCFC42BCE4E2C000434F9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8A2FCFC62BCE4E40000434F9 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		8AA5D5352BCE6CE800002E32 /* EventsAndWeatherGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsAndWeatherGuide.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 				7408CF122BBA8EAC004624AD /* MBProgressHUD in Frameworks */,
 				7408CF0F2BBA8C9D004624AD /* FirebaseStorage in Frameworks */,
 				7408CF192BBA93C2004624AD /* SDWebImageMapKit in Frameworks */,
+				8A0C09082BD2BB0100DF6B24 /* Eureka in Frameworks */,
 				7408CF172BBA93C2004624AD /* SDWebImage in Frameworks */,
-				740146812BBC0D2E00B8229E /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,9 +119,9 @@
 				8A2FCFC42BCE4E2C000434F9 /* HomeViewController.swift */,
 				5366D91A2BCE55310057D5D6 /* ProfileViewController.swift */,
 				5366D91C2BCE55410057D5D6 /* FavouriteTableViewCell.swift */,
+				8AA5D5342BCE6CE800002E32 /* EventsAndWeatherGuide.xcdatamodeld */,
 				8A2FCFC22BCE4E1D000434F9 /* FavouritesViewController.swift */,
 				74299A032B860F3300C22B9C /* Main.storyboard */,
-				7490F5862BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld */,
 				74299A062B860F3400C22B9C /* Assets.xcassets */,
 				740146712BBBCA8700B8229E /* GoogleService-Info.plist */,
 				74299A082B860F3400C22B9C /* LaunchScreen.storyboard */,
@@ -171,7 +171,7 @@
 				7408CF112BBA8EAC004624AD /* MBProgressHUD */,
 				7408CF162BBA93C2004624AD /* SDWebImage */,
 				7408CF182BBA93C2004624AD /* SDWebImageMapKit */,
-				740146802BBC0D2E00B8229E /* SwiftSoup */,
+				8A0C09072BD2BB0100DF6B24 /* Eureka */,
 			);
 			productName = ExpenseTracker;
 			productReference = 742999FA2B860F3300C22B9C /* EventsAndWeatherGuide.app */;
@@ -205,7 +205,7 @@
 				7408CF092BBA8C9D004624AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				7408CF102BBA8EAC004624AD /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 				7408CF152BBA93C2004624AD /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				7401467F2BBC0D2E00B8229E /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				8A0C09062BD2BB0000DF6B24 /* XCRemoteSwiftPackageReference "Eureka" */,
 			);
 			productRefGroup = 742999FB2B860F3300C22B9C /* Products */;
 			projectDirPath = "";
@@ -240,9 +240,9 @@
 				7408CF142BBA9103004624AD /* AdminEventTableViewCell.swift in Sources */,
 				5366D91D2BCE55410057D5D6 /* FavouriteTableViewCell.swift in Sources */,
 				8A2FCFC32BCE4E1D000434F9 /* FavouritesViewController.swift in Sources */,
-				7490F5882BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld in Sources */,
 				048024C52BCE48A400D5CA75 /* CustomTableView.swift in Sources */,
 				5366D91B2BCE55310057D5D6 /* ProfileViewController.swift in Sources */,
+				8AA5D5362BCE6CE800002E32 /* EventsAndWeatherGuide.xcdatamodeld in Sources */,
 				048024C32BCE489900D5CA75 /* EventTableViewCell.swift in Sources */,
 				747598DE2BBA80BF00DA4A06 /* AddOrUpdateEventViewController.swift in Sources */,
 				74299A022B860F3300C22B9C /* ViewController.swift in Sources */,
@@ -484,14 +484,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7401467F2BBC0D2E00B8229E /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.7.2;
-			};
-		};
 		7408CF092BBA8C9D004624AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -516,14 +508,17 @@
 				minimumVersion = 5.19.1;
 			};
 		};
+		8A0C09062BD2BB0000DF6B24 /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		740146802BBC0D2E00B8229E /* SwiftSoup */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7401467F2BBC0D2E00B8229E /* XCRemoteSwiftPackageReference "SwiftSoup" */;
-			productName = SwiftSoup;
-		};
 		7408CF0A2BBA8C9D004624AD /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7408CF092BBA8C9D004624AD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
@@ -554,17 +549,21 @@
 			package = 7408CF152BBA93C2004624AD /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
 		};
+		8A0C09072BD2BB0100DF6B24 /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A0C09062BD2BB0000DF6B24 /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		7490F5862BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodeld */ = {
+		8AA5D5342BCE6CE800002E32 /* EventsAndWeatherGuide.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7490F5872BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodel */,
+				8AA5D5352BCE6CE800002E32 /* EventsAndWeatherGuide.xcdatamodel */,
 			);
-			currentVersion = 7490F5872BC2FB20003171BF /* EventsAndWeatherGuide.xcdatamodel */;
-			name = EventsAndWeatherGuide.xcdatamodeld;
-			path = "/Users/alisher/Desktop/UniversityProjects/Feb 2024/Projects/EventsAndWeatherGuide/EventsAndWeatherGuide/EventsAndWeatherGuide.xcdatamodeld";
+			currentVersion = 8AA5D5352BCE6CE800002E32 /* EventsAndWeatherGuide.xcdatamodel */;
+			path = EventsAndWeatherGuide.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

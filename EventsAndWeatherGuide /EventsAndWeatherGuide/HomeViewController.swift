@@ -11,7 +11,7 @@ import FirebaseFirestore
 import MBProgressHUD
 import SDWebImage
 import CoreData
-import SwiftSoup
+
 
 class HomeViewController: UIViewController {
     

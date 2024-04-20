@@ -8,6 +8,7 @@
 import UIKit
 import MBProgressHUD
 import FirebaseAuth
+import AVFoundation
 
 class ForgotPasswordViewController: UIViewController {
 
@@ -72,5 +73,6 @@ class ForgotPasswordViewController: UIViewController {
         
         // show the alert
         self.present(alert, animated: true, completion: nil)
+        AudioServicesPlaySystemSound(1151)
     }
 }

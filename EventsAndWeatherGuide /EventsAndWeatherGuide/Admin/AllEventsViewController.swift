@@ -10,6 +10,7 @@ import FirebaseAuth
 import FirebaseFirestore
 import MBProgressHUD
 import SDWebImage
+import AVFoundation
 
 class AllEventsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -52,6 +53,7 @@ class AllEventsViewController: UIViewController, UITableViewDelegate, UITableVie
                 self.getAllEvents()
             }
         }
+        AudioServicesPlaySystemSound(1155)
     }
     
     

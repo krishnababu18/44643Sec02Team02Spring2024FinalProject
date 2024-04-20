@@ -8,6 +8,7 @@
 import UIKit
 import MBProgressHUD
 import FirebaseAuth
+import AVFoundation
 
 class RegisterViewController: UIViewController {
     
@@ -113,6 +114,7 @@ class RegisterViewController: UIViewController {
         let alert = UIAlertController(title: "Error", message: str, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
+        AudioServicesPlaySystemSound(1151)
     }
     
 }
